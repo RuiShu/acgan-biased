@@ -43,10 +43,14 @@ By increasing `INFO` (denote as `lambda_m` in the following picture), we can vis
 
 When we run AC-GAN (with `lambda_m = 2`) on the real MNIST data, we also get to see something interesting. In the real dataset, 1's sometimes have serifs:
 
+<p align = 'center'>
 <img src="assets/mnist_real.png" width="500">
+</p>
 
 But when we run AC-GAN, it down-samples serifs:
 
+<p align = 'center'>
 <img src="assets/mnist_acgan.png" width="500">
+</p>
 
 1's with serifs are likely closer to the auxiliary classifier's decision boundary (for the digit classification problem) since serifs make the 1 look closer to a 2. Funnily enough, because AC-GAN down-samples class-ambiguous samples, it actually achieves a better Inception Score than the real MNIST digits. 
