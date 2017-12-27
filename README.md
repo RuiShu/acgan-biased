@@ -1,6 +1,6 @@
 # acgan-biased
 
-Code to reproduce the experiments in my [AC-GAN Learns a Biased Distribution](http://ruishu.io/docs/ac-gan-learns.pdf) write-up. The following experiments demonstrate that AC-GAN down-samples points near the decision boundary of the auxiliary classifier. 
+Code to reproduce the experiments in Bayesian Deep Learning workshop paper [AC-GAN Learns a Biased Distribution](http://bayesiandeeplearning.org/2017/papers/63.pdf). The following experiments demonstrate that AC-GAN down-samples points near the decision boundary of the auxiliary classifier. 
 
 ### Dependencies
 
